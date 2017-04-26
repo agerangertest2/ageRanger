@@ -9,7 +9,9 @@ Requires nodejs and node package manager.
 
 Uses NSubstitute to mock unit test. 
 
-Uses .Net core for DI 
+Uses .Net core for DI
+
+Bootstrap for front.
 
 Download code and open using Visual Studio 2017 community edition. Might get an #### "assemblies incompatibility issue" #####, re-build 
 and it should be good to go.
@@ -28,5 +30,11 @@ npm start -> to run UI
 
 npm test -> to run front end unit testing.
 
+# Notable UI
 
+- Add Person form comes with validation and only submit when you have all the fields correctly validated. 
+
+- Search waits for 800 milisec before firing query
+
+- Karmized test available for ui components. 
 
