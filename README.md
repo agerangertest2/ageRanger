@@ -7,16 +7,18 @@ Uses MSTest instead of XUnit due to compatibilities issue with build servers lik
 
 Requires nodejs and node package manager. 
 
-Download code and open using Visual Studio 2017 community edition. Might get an "assemblies incompatibility issue", re-build 
+Download code and open using Visual Studio 2017 community edition. Might get an #### "assemblies incompatibility issue" #####, re-build 
 and it should be good to go.
 
 Step 1. Please ensure REST component is up and running by hitting F5 on Visual Studio.
 
-Setup CORS to limit accessibility to localhost:3000. 
+Provide basic security for REST API - CORS, redirection and TLS. CORS access is allowed from localhost:3000. 
 
 Step 2. Run front end 
 
 Goto wwwroot directory, and run the following command :-
+
+npm install -> to install all the required dependencies. 
 
 npm start -> to run UI 
 
